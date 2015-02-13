@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end CSS reset                                          */
+
+/* start of my code                                       */
+body {
+	background-image: url('../images/background.jpg');
+	background-size: 1400px 1000px;
+	background-repeat: no-repeat;
+	height: 100%;
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	bottom: 0px;
+}
+
+#container {
+	min-width: 560px;
+	max-width: 960px;
+	min-height: 100%;
+	background-color: rgba(250,250,250,.94);
+	margin: auto;
+	padding: 0px 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #F1931D;
+	font-size: 60px;
+	padding: 25px;
+	font-family: 'Rockwell';
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Rockwell';
+	font-size: 18px;
+	color: #868A08;
+	margin: 15px;
+}
+
+ul {
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Rockwell';
+	font-size: 18px;
+	color: #868A08;
+	line-height: 22px;
+	margin: 25px;
+}
+
+input {
+	display: block;
+	width: 80%;
+	min-width: 450px;
+	max-width: 550px;
+	margin: 10px auto;
+	border: 1px solid #C8C8C8;
+	font-size: 22px;
+	font-family: inherit;
+	letter-spacing: 1px;
+}
+
+form > div {
+	width: 330px;
+	margin: 10px auto;
+}
+
+.button{
+	display:inline-block;
+    height: 20px;
+	width: 100px;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	font-size: 15px;
+	font-family: Rockwell;
+	background-color: #712201;
+	color: white;
+	border-radius: 5px;
+	text-align:center;
+	opacity: 1.0;
+	margin: 10px 3px;
+}
+
+ol {
+	list-style-type: decimal;
+	margin-left: 25px;
+}
+
+ol li {
+	margin: 15px;
+}
+
+.item {
+	margin: 9px 15px;
+	font-size: 30px;
+	position: relative;
+	letter-spacing: 1px;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+
