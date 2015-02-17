@@ -54,7 +54,7 @@ body {
 	background-size: 1400px 1000px;
 	background-repeat: no-repeat;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	left: 20%;
 	right: 20%;
 	bottom: 0px;
@@ -148,4 +148,14 @@ ol li {
 	text-decoration: line-through;
 }
 
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+}
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
