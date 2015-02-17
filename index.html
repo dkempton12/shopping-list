@@ -5,8 +5,10 @@
 	<meta name="description" content="Dan Kempton's Shopping List"/>
 	<title>Shopping List</title>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" scr="js/ajax.js"></script>
 
 </head>
 <body>
@@ -19,14 +21,17 @@
 </ul>
 <h3>Items Left: <span>0/0</span></h3>
 
-<form name="CheckList">
-	<input type="text" name="CheckListItem"/>
+<form name="checkListForm">
+	<input type="text" name="checkListItem"/>
 	<div>
 		<div id="add" class="button">ADD</div>
 		<div id="clearChecked" class="button">CLEAR</div>
 		<div id="clearAll" class="button">CLEAR ALL</div>
 	</div>
 </form>
+<br/>
+		<ol class="list">
+		</ol>
 	
 </body>
 </html>

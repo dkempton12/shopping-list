@@ -64,24 +64,24 @@ body {
 	min-width: 560px;
 	max-width: 960px;
 	min-height: 100%;
-	background-color: rgba(250,250,250,.94);
+	background-color: rgba(230,230,230,.72);
 	margin: auto;
 	padding: 0px 20px;
 }
 
 h1 {
 	text-align: center;
-	color: #F1931D;
-	font-size: 60px;
+	color: #A63F05;
+	font-size: 80px;
 	padding: 25px;
-	font-family: 'Rockwell';
+	font-family: 'Boogaloo', cursive;
 }
 
 h3 {
 	text-align: center;
-	font-family: 'Rockwell';
+	font-family: 'Rockwell Extra Bold';
 	font-size: 18px;
-	color: #868A08;
+	color: #721F04;
 	margin: 15px;
 }
 
@@ -90,7 +90,7 @@ ul {
 	text-align: center;
 	font-family: 'Rockwell';
 	font-size: 18px;
-	color: #868A08;
+	color: #712201;
 	line-height: 22px;
 	margin: 25px;
 }
@@ -102,8 +102,8 @@ input {
 	max-width: 550px;
 	margin: 10px auto;
 	border: 1px solid #C8C8C8;
-	font-size: 22px;
-	font-family: inherit;
+	font-size: 18px;
+	font-family: 'Rockwell Extra Bold';
 	letter-spacing: 1px;
 }
 
@@ -119,9 +119,9 @@ form > div {
 	padding-top: 15px;
 	padding-bottom: 8px;
 	font-size: 15px;
-	font-family: Rockwell;
-	background-color: #712201;
-	color: white;
+	font-family: 'Rockwell';
+	background-color: #721F04;
+	color: #F0901C;
 	border-radius: 5px;
 	text-align:center;
 	opacity: 1.0;
